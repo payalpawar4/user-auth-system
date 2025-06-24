@@ -1,4 +1,4 @@
-🔐 Django User Authentication System
+# 🔐 Django User Authentication System
 
 A simple and clean Django-based user authentication system with login and logout functionality. Ideal for beginner to intermediate developers learning Django and building secure web apps.
 
@@ -44,49 +44,51 @@ userproject/
 ├── .gitignore
 └── manage.py
 
+yaml
+Copy code
+
+---
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/payalpawar4/user-auth-system.git
 cd user-auth-system
-
 2. Create and Activate a Virtual Environment
-
 bash
+Copy code
 python -m venv env
 env\Scripts\activate  # For Windows
 # OR
 source env/bin/activate  # For Mac/Linux
-
 3. Install Dependencies
-
 bash
+Copy code
 pip install -r requirements.txt
-
 If you don’t have requirements.txt, install manually:
 
 bash
+Copy code
 pip install django python-decouple
-
 4. Create .env File
 In the root folder (where manage.py is), create a .env file:
 
 env
+Copy code
 SECRET_KEY=your-secret-key-here
 DEBUG=True
-
 5. Run the Server
-
 bash
+Copy code
 python manage.py runserver
-
 Visit http://127.0.0.1:8000 in your browser.
 
 🧪 Default Test Credentials
 Use this pre-created user to log in:
 
 Username: payal
+
 Password: payal@0401
 
 ✅ .gitignore Settings
@@ -100,7 +102,6 @@ db.sqlite3
 /static/
 .env
 .env.*
-
 🪪 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
@@ -111,4 +112,9 @@ Made with ❤️ by Payal Pawar
 🙋‍♀️ Want to Contribute?
 Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
 
-Let me know if you want to customize it more — e.g. add screenshots, GitHub badges, or deployment instructions.
+yaml
+Copy code
+
+---
+
+Let me know if you want to customize it more — e.g. add screenshots, GitHub badges, 
