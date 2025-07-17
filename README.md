@@ -87,9 +87,9 @@ Visit http://127.0.0.1:8000 in your browser.
 🧪 Default Test Credentials
 Use this pre-created user to log in:
 
-Username: payal
+Username: user
 
-Password: payal@0401
+Password: user@0000
 
 ✅ .gitignore Settings
 Your .gitignore should include:
